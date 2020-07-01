@@ -162,9 +162,29 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-#footer-section{
+#footer-id{
     color:black;
     font-size: 14px;
     margin-top: 25px;
     font-family: 'Nanum Gothic', sans-serif;
+    color: #ef0a7e;
+    text-align: center;
+}
+#footer-section{
+    width: 120%;
+    color: #ef0a7e;
+    background-color: rgba(47, 46, 46, 0.93);
+    margin-left: 0px;
+}
+.client span{
+    color: #ef0a7e;
+}
+.client .fa-facebook-official {
+    color:blue;
+}
+.client .fa-linkedin{
+    color:blue;
+}
+.client .fa-instagram{
+    color:purple;
 }
