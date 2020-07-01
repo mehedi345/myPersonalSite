@@ -1,0 +1,140 @@
+body{
+    margin:0px;
+    padding: 0px;
+    width: 1140px;
+    font-family: 'Roboto', sans-serif;
+}
+#section1{
+    height: 400px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 1140px;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 5%;
+    float: left;
+  
+}
+.half-width img{
+    width: 100%;
+}
+.half-width p{
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
+}
+#name_greet{
+    font-weight: 400;
+}
+#name_color{
+    font-weight: bold;
+    color: #ef0a7e;
+    font-size: 25px;
+}
+.hire_btn{
+    margin:3px;
+    padding: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, #e91e1e,#ea1868,#f95921);
+    border-radius: 5px;
+    border:none;
+}
+.hire_btn a{
+    text-decoration: none;
+    color:white;
+}
+#section2{
+    background-color: rgba(255, 255, 255, 0.966);
+    height: 400px;
+    width: 1140px;
+    margin-left: 7%;
+    padding-left: 2%;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2px;
+    margin-bottom:12px ;
+}
+#section2 h2{
+    color: dimgray;
+    text-align: left;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+#sec2_para{
+    text-align: justify;
+    font-weight: normal;
+    font-size: 16px;
+    margin-right:20px;
+}
+#cv-btn{
+    text-align: center;
+    background-image: linear-gradient(90deg,#e91e7c,#ea520d,#ff6500f5);
+    padding:10px 15px;
+    border-radius: 5px;
+    border:none;
+}
+#cv-btn a{
+    text-decoration: none;
+    color:white;
+}
+
+#section3{
+    width: 1100px;
+    height: 400px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+    opacity: 0.9;
+   overflow: hidden;
+
+}
+.head_class{
+    text-align: center;
+    font-size: 22px;
+    font-variant: normal;
+    overflow: hidden;
+    margin-bottom: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#img{
+    clear: both;
+    
+
+} 
+.w_img {
+    width: 26%;
+    float: left;
+    overflow: hidden;
+    margin-left: 8%;
+    padding-top: 3%;
+    box-sizing: content-box;
+    margin-right: -73px;
+    margin-top: -75px;
+    padding-right: -2px;
+}
+ 
+.client{
+    text-align: center;
+}
+#clientName{
+    color:dimgray;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+}
+#clientStatus{
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    margin-top:10px;
+}
+#section4 p{
+    text-align: center;
+    font-size: large;
+    font-family: 'Amatic SC', cursive;
+}
